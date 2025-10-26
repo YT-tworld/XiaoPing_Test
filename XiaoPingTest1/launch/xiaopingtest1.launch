@@ -1,0 +1,7 @@
+<launch>
+    <!--(标签)node (属性)pkg="" type="" name=" "output=""/-->
+    <!--图片接收处理节点-->
+    <node pkg="XiaoPingTest1" type="node_cube_detector" name="node_cube_detector" output="screen"/>
+    <!--图片发送节点-->
+    <node pkg="XiaoPingTest1" type="node_image_pub"     name="node_image_pub" output="screen"/>
+ </launch>  
